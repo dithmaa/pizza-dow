@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import logoSvg from '../assets/img/pizza-logo.svg';
+import logoSvg from '../assets/img/pizza-logo.png';
 import Button from './Button';
 
 function Header() {
@@ -15,8 +15,8 @@ function Header() {
           <div className="header__logo">
             <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
-              <h1>React Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <h1>Pizza Dow</h1>
+              <p>Пицца - Всему голова</p>
             </div>
           </div>
         </Link>

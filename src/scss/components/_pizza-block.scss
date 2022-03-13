@@ -19,6 +19,12 @@
 
   &__image {
     width: 260px;
+    opacity: 1;
+    transition: 0.25s ease all;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   &__title {

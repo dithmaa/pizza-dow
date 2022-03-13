@@ -18,9 +18,27 @@
       margin-top: 30px;
     }
   }
-
+  @keyframes logoJump {
+    0% {
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-5px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
   &__logo {
     display: flex;
+    align-items: center;
+    transition: 0.25s ease-out;
+    
+    &:hover {
+      opacity: 0.8;
+      animation: logoJump 1s ease;
+    }
+    
 
     img {
       margin-right: 15px;
